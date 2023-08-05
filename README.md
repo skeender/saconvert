@@ -14,12 +14,17 @@ pip install saconvert
 
 saconvert currently supports the following length conversions:
 
-- Meters to Feet
-- Feet to Meters
-- Kilometers to Miles
-- Miles to Kilometers
-- Centimeters to Inches
-- Inches to Centimeters
+- Meter
+- Kilometer
+- Centimeter
+- Millimeter
+- Micrometer
+- Nanometer
+- Mile
+- Yard
+- Foot
+- Inch
+- Light Year
 
 ## Usage
 
@@ -29,7 +34,7 @@ To use saconvert in your Python project, follow these simple steps:
 # Import LengthConverter, the only thing supported in the saconvert module (for now)
 from saconvert.conversions import LengthConverter
 
-# Perform a length conversion (converts Nanometer to Light Year (for all the different conversions, scroll below!))
+# Perform a length conversion (converts Nanometer to Light Year (for all the different conversions, scroll up!))
 converter = LengthConverter(20, "Nanometer")
 print(converter.to_light_year())
 ```
